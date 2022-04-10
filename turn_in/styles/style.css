@@ -443,13 +443,17 @@
     flex-grow: initial;
 }
 
-.footer__column-content_hours {
+.footer__column {
+    overflow: auto;
+}
+
+.footer__column_content_hours {
     margin: 0 100px 0 auto;
 }
 
-.footer__column-content_social {}
+.footer__column_content_social {}
 
-.footer__column-content_logo {
+.footer__column_content_logo {
     margin: 0 0;
 }
 
